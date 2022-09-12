@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: ebrima;
+    src: url(ebrima.ttf);
+}
+body{
+    background-image: url(./photofile/body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 500rem;
+    overflow-x: hidden;
+}
+.banner{
+    background-image: url(./photofile/banner@3x.png);
+    background-size: 100% 100%;
+    background-repeat: none;
+    height: 65rem;
+}
+.logo{
+    font-size: 4rem;
+    font-family: ebrima;
+    font-weight: bold;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+nav ul{
+    display: flex;
+    gap: 5rem;
+}
+nav > ul > li > a{
+    font-size: 1.4rem;
+    color: white;
+    font-family: ebrima;
+    font-weight: bold;
+}
+.banner-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-img img{
+    height: 53rem;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    font-family: ebrima;
+    padding: 0 6rem;
+}
+.banner-title{
+    font-size: 1.9rem;
+    color: #ED1E66;
+    font-weight: bold;
+}
+.b-head{
+    font-size: 4rem;
+    color: #ED1E66;
+    font-weight: bolder;
+    margin: 1rem 0;
+    max-width: 90%;
+}
+.more-btn button{
+    font-size: 2.4rem;
+    background-color: #381DFF;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/*
+what-we do section starts here */
+
+.what-container{
+    background: url(./photofile/wh-we-do-cover@3x.png) no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    position: relative;
+}
+.what-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.what-img img{
+    height: 55rem;
+}
+.what-content > h2{
+    font-size: 4rem;
+    color: #ED1E66;
+    font-family: ebrima;
+    width: fit-content;
+}
+.what-content p{
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    font-family: ebrima;
+    margin: 1.5rem 0;
+}
+.learn-btn button{
+    background-color: #381DFF;
+    outline: none;
+    border: none;
+    font-size: 2.4rem;
+    font-family: ebrima;
+    color: white;
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+.what-content{
+    max-width: 30%;
+}
+.dot img{
+    position: absolute;
+    height: 60rem;
+    top: 10rem;
+}
+.project-ex{
+    text-align: center;
+    font-family: ebrima;
+    font-size: 4.6rem;
+    font-weight: bolder;
+    color: #381DFF;
+    background-color: #e8dde2;
+    max-width: 70%;
+    margin: 4rem auto;
+    border-radius: 8rem;
+    padding: 2rem 12rem;
+}
+.project-ex > span{
+    color: #ED1E66;
+}
+
+/* services starts here */
+.service-container{
+    position: relative;
+}
+.service-flexbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70rem;
+    padding: 0 8rem;
+}
+.service-content{
+    font-family: ebrima;
+    max-width: 45%;
+    padding: 2rem;
+    z-index: 10;
+}
+.service-flexstart{
+    justify-content: flex-start;
+}
+.service-3{
+    max-height: 40rem;
+}
+.service-5{
+    max-height: 30rem;
+}
+.ser-head{
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+.service-btn button{
+    font-size: 1.8rem;
+}
+.service-content > p{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: #A09292;
+}
+.blue-de img{
+    height: 300rem;
+}
+.blue-de{
+    position: absolute;
+}
+
+
+/* digital part starts here */
+.digital-sec-container{
+    margin-top: 20rem;
+    background: url(./photofile/digital-sol-part-cover@3x.png);
+    font-family: ebrima;
+    padding-bottom: 10rem;
+}
+.digital-header{
+    font-size: 4.6rem;
+    text-align: center;
+    color: #ED1E66;
+    font-weight: bolder;
+    max-width: 50%;
+    margin: auto;
+}
+.digital-header span{
+    color: #381DFF;
+}
+.achievment{
+    display: flex;
+    justify-content: space-around;
+    background-color: #97a6ea;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+.achie-txt{
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+.achie-txt span{
+    font-size: 5.7rem;
+    font-weight: bolder;
+}
+.logo1 img{
+    height: 6rem;
+}
+.logo3 img{
+    height: 8rem;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-2 img{
+    height: 14rem;
+}
+.logo1,.logo3{
+    align-self: flex-end;
+}
