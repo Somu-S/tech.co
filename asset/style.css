@@ -5,8 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
-html{
+html,body{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: ebrima;
@@ -16,8 +17,6 @@ body{
     background-image: url(./photofile/body.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 500rem;
-    overflow-x: hidden;
 }
 .banner{
     background-image: url(./photofile/banner@3x.png);
@@ -249,4 +248,193 @@ what-we do section starts here */
 }
 .logo1,.logo3{
     align-self: flex-end;
+}
+
+/* about-container starts here */
+.about-container{
+    display: flex;
+    align-items: center;
+    background:url(./photofile/about-cover@3x.png);
+    justify-content: space-between;
+    padding: 2rem;
+}
+.about-img img{
+    max-height: 60rem;
+}
+.about-content{
+    font-family: ebrima;
+    padding: 2rem  6rem;
+}
+.about-content h2{
+    font-size: 4.9rem;
+    font-weight: bolder;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+
+
+/* connnect-container starts here */
+.connect-container{
+   background-image: url(./photofile/connect-cover_1@3x.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height:140rem;
+   font-family: ebrima;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -4rem;
+   position: relative;
+}
+.connect-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 1rem;
+    justify-content: center;
+    background-color: white;
+}
+.connect-input-ctrl{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.flex-input{
+    display: flex;
+    gap: 2rem;
+}
+.input-ctrl input,textarea{
+    width: 100%;
+}
+.connect-head{
+    font-size: 5.1rem;
+    font-weight: bold;
+}
+.input-ctrl input,.input-ctrl textarea{
+    outline: none;
+    padding: 2rem;
+    font-size: 2.8rem;
+    border-radius: 4rem;
+}
+input[type=checkbox] {
+    transform: scale(2);
+}
+.terms-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    gap: 2rem;
+}
+.terms-box span{
+    color: #381DFF;
+}
+.send-btn button{
+    outline: none;
+    border: none;
+    background-color: #381DFF;
+    color: white;
+    font-size: 3.5rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.send-btn{
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* contact part starts here */
+.contact-container{
+    background-image: url(./photofile/contact-cover@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90rem;
+    margin-top: -50rem;
+}
+.contact-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.contact-card{
+    display: flex;
+    font-family: ebrima;
+    font-weight: bold;
+    gap: 2rem;
+    margin-top: 55rem;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.contact-icon img{
+    height: 4rem;
+}
+
+/* footer starts here */
+footer{
+    background: url(./photofile/footer@3x.png) no-repeat;
+    height: 60rem;
+    background-size: cover;
+    margin-top: -20rem;
+    font-family: ebrima;
+}
+.f-head{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+footer li {
+    margin: 1.5rem 0;
+    font-size: 1.8rem;
+    color: black;
+}
+footer li a{
+    color: black;
+}
+.footer-container{
+    display: flex;
+    gap: 20rem;
+    padding-left: 8rem;
+}
+.footer-row{
+    margin-top: 8rem;
+}
+.copywright{
+    padding: 0 8rem;
+    font-size: 1.8rem;
+    margin-top: 20rem;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:768px){
+    html{
+        font-size: 30%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    html{
+        font-size: 40%;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (min-width:1201px){
+    html{
+        font-size: 62.5%;
+    }
 }
