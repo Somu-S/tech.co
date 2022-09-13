@@ -36,6 +36,14 @@ nav{
     align-items: center;
     padding: 2rem 6rem;
 }
+.nav-bar i{
+    font-size: 3.2rem;
+    color: white;
+    cursor: pointer;
+}
+.nav-bar{
+    display: none;
+}
 nav ul{
     display: flex;
     gap: 5rem;
@@ -46,6 +54,57 @@ nav > ul > li > a{
     font-family: ebrima;
     font-weight: bold;
 }
+nav li a:hover{
+    color: #ED1E66;
+    transition: .3s;
+}
+
+
+
+/* respnosive nav */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    font-family: ebrima;
+  }
+  .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 3.6rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #ED1E66;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    font-size: 6rem;
+  }
+
+
+
+
 .banner-content-container{
     display: flex;
     justify-content: space-between;
@@ -82,7 +141,10 @@ nav > ul > li > a{
     border-radius: 2rem;
     cursor: pointer;
 }
-
+.more-btn button:hover{
+    background-color: #ED1E66;
+    transition: .3s;
+}
 /*
 what-we do section starts here */
 
@@ -127,6 +189,7 @@ what-we do section starts here */
 }
 .what-content{
     max-width: 30%;
+    z-index: 1;
 }
 .dot img{
     position: absolute;
@@ -348,6 +411,10 @@ input[type=checkbox] {
     width: fit-content;
     margin: auto;
 }
+.send-btn button:hover{
+    background-color: #ED1E66;
+    transition: .3s;
+}
 
 
 /* contact part starts here */
@@ -401,6 +468,10 @@ footer li {
 footer li a{
     color: black;
 }
+footer li a:hover{
+    color: #ED1E66;
+    transition: .3s;
+}
 .footer-container{
     display: flex;
     gap: 20rem;
@@ -421,6 +492,54 @@ footer li a{
 @media (max-width:768px){
     html{
         font-size: 30%;
+    }
+    .nav-bar{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .what-content{
+        max-width: 100%;
+    }
+    .project-ex{
+        max-width: 95%;
+    }
+    .about-img img{
+        height: 50rem;
+    }
+}
+@media (max-width:580px){
+    .blue-de img{
+        height: 200rem;
+        opacity: .3;
+    }
+    .service-content{
+        max-width: 100%;
+    }
+    .service-flexbox{
+        height: 30rem;
+    }
+    .company-logo{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5rem;
+    }
+    .about-container{
+        flex-direction: column;
+        padding: 4rem;
+    }
+    .about-content{
+        max-width: 100%;
+        padding: 0;
+    }
+    .footer-container{
+        gap: 9rem;
+    }
+    .what-content-container{
+        flex-direction: column;
+        gap: 4rem;
+        padding: 4rem;
     }
 }
 @media (min-width:769px) and (max-width:1024px){

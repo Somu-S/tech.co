@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="https://kit.fontawesome.com/9cfa251def.js" crossorigin="anonymous"></script>
+    <script src="asset/script.js"></script>
     <link rel="stylesheet" href="asset/style.css">
 </head>
 <body>
     <main>
         <div class="banner">
             <nav>
+                <div class="nav-bar" onclick="openNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <div class="logo">
                     Tech.co
                 </div>
@@ -24,6 +28,19 @@
                     <li><a href="#">Carrier</a></li>
                     <li><a href="#">Get connected</a></li>
                 </ul>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="#">About</a>
+                      <a href="#">Services</a>
+                      <a href="#">Portfolio</a>
+                      <a href="#">Members</a>
+                      <a href="#">Resources</a>
+                      <a href="#">Carrier</a>
+                      <a href="#">Get Connected</a>
+                    </div>
+                  </div>
             </nav>
             <div class="banner-content-container">
                 <div class="banner-content">
@@ -60,12 +77,10 @@
                     <h2>What We Do</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quis blanditiis facilis placeat!</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ratione eos eum vel?</p>
-                    <div class="learn-btn">
-                        <a href="#">
-                            <button>
-                                Learn More
-                            </button>
-                        </a>
+                    <div class="more-btn">
+                        <button>
+                            Learn More
+                        </button>
                     </div>
                 </div>
             </div>
