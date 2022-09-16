@@ -13,6 +13,7 @@ html,body{
     font-family: ebrima;
     src: url(ebrima.ttf);
 }
+
 body{
     background-image: url(./photofile/body.png);
     background-size: cover;
@@ -52,16 +53,18 @@ nav > ul > li > a{
     font-size: 1.4rem;
     color: white;
     font-family: ebrima;
-    font-weight: bold;
+    padding: .5rem .7rem;
+    border-radius: .2rem;
+    box-shadow: inset 0 0 0 0 #ED1E66;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-nav li a:hover{
-    color: #ED1E66;
-    transition: .3s;
+
+nav > ul > li > a:hover{
+    box-shadow: inset 100px 0 0 0 #ED1E66;
 }
 
-
-
-/* respnosive nav */
+/* responsive nav */
 .overlay {
     height: 100%;
     width: 0;
@@ -101,9 +104,6 @@ nav li a:hover{
     right: 4.5rem;
     font-size: 6rem;
   }
-
-
-
 
 .banner-content-container{
     display: flex;
@@ -263,7 +263,7 @@ what-we do section starts here */
     margin-top: 20rem;
     background: url(./photofile/digital-sol-part-cover@3x.png);
     font-family: ebrima;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 .digital-header{
     font-size: 4.6rem;
@@ -305,6 +305,7 @@ what-we do section starts here */
 .company-logo{
     display: flex;
     justify-content: space-around;
+    padding: 4rem 0;
 }
 .logo-2 img{
     height: 14rem;
@@ -317,9 +318,9 @@ what-we do section starts here */
 .about-container{
     display: flex;
     align-items: center;
-    background:url(./photofile/about-cover@3x.png);
+    background:url(./photofile/about-cover@3x-100.jpg);
     justify-content: space-between;
-    padding: 2rem;
+    padding: 6rem 0;
 }
 .about-img img{
     max-height: 60rem;
@@ -545,6 +546,11 @@ footer li a:hover{
 @media (min-width:769px) and (max-width:1024px){
     html{
         font-size: 40%;
+    }
+}
+@media (min-width:769px) and (max-width:840px){
+    .footer-container{
+        gap: 8rem;
     }
 }
 @media (min-width:1025px) and (max-width:1200px){
