@@ -581,6 +581,27 @@ footer li a:hover{
     .banner-content-container{
         padding: 6rem 0;
     }
+    .footer-container{
+        width: 90%;
+    }
+    .blue-de{
+        left: -10rem;
+    }
+    .service-content{
+        max-width: 50%;
+    }
+    .blue-de img{
+        height: 220rem;
+    }
+    .service-flexbox{
+        height: 45rem;
+    }
+    .service-2{
+        height: 45rem;
+    }
+    .service-5{
+        max-height: 35rem;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
     html{
