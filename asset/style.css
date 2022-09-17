@@ -600,18 +600,28 @@ footer li a:hover{
         font-size: 70%;
     }
 }
-@media(min-width:2000px){
+@media(min-width:2400px){
     html{
         font-size: 100%;
     }
 }
-@media (min-width:2400px){
+@media(min-width:3000px){
     html{
-        font-size: 200%;
+        font-size: 120%;
     }
 }
-@media (min-width:3000px){
+@media (min-width:3500px){
     html{
-        font-size: 270%;
+        font-size: 250%;
+    }
+}
+@media(min-width:3700px){
+    html{
+        font-size: 220%;
+    }
+}
+@media (min-width:4700px){
+    html{
+        font-size: 250%;
     }
 }
