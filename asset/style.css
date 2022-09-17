@@ -55,7 +55,6 @@ nav > ul > li > a{
     font-family: ebrima;
     padding: .5rem .7rem;
     border-radius: .2rem;
-
 }
 
 
@@ -539,13 +538,13 @@ footer li a:hover{
 @media (max-width:580px){
     .blue-de img{
         height: 200rem;
-        opacity: .3;
     }
     .service-content{
-        max-width: 100%;
+        max-width: 40%;
     }
     .service-flexbox{
-        height: 30rem;
+        height: 40rem;
+        padding: 0 1rem;
     }
     .company-logo{
         display: grid;
@@ -568,11 +567,11 @@ footer li a:hover{
     .banner-img img{
         height: 35rem;
     }
+    input[type=checkbox] {
+        transform: scale(1);
+    }
 }
 @media(max-width:468px){
-    html{
-        font-size: 20%;
-    }
     .banner-img img{
         height: 25rem;
     }
@@ -616,6 +615,11 @@ footer li a:hover{
         font-size: 70%;
     }
 }
+@media (min-width:1900px){
+    html{
+        font-size: 90%;
+    }
+}
 @media(min-width:2400px){
     html{
         font-size: 100%;
@@ -628,7 +632,7 @@ footer li a:hover{
 }
 @media (min-width:3500px){
     html{
-        font-size: 250%;
+        font-size: 150%;
     }
 }
 @media(min-width:3700px){
