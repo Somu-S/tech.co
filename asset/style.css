@@ -380,13 +380,13 @@ what-we do section starts here */
     width: 100%;
 }
 .connect-head{
-    font-size: 5.1rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .input-ctrl input,.input-ctrl textarea{
     outline: none;
     padding: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     border-radius: 4rem;
 }
 input[type=checkbox] {
@@ -396,7 +396,7 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     gap: 2rem;
 }
 .terms-box span{
@@ -407,7 +407,7 @@ input[type=checkbox] {
     border: none;
     background-color: #381DFF;
     color: white;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     padding: 2rem;
     border-radius: 3rem;
     cursor: pointer;
@@ -605,8 +605,13 @@ footer li a:hover{
         font-size: 100%;
     }
 }
-@media(min-width:3000px){
+@media (min-width:2400px){
     html{
-        font-size: 280%;
+        font-size: 200%;
+    }
+}
+@media (min-width:3000px){
+    html{
+        font-size: 270%;
     }
 }
