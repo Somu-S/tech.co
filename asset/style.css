@@ -23,7 +23,7 @@ body{
     background-image: url(./photofile/banner@3x.png);
     background-size: 100% 100%;
     background-repeat: none;
-    height: 65rem;
+    height: 60rem;
 }
 .logo{
     font-size: 4rem;
@@ -59,7 +59,6 @@ nav > ul > li > a{
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-
 nav > ul > li > a:hover{
     box-shadow: inset 100px 0 0 0 #ED1E66;
 }
@@ -111,7 +110,7 @@ nav > ul > li > a:hover{
     align-items: center;
 }
 .banner-img img{
-    height: 53rem;
+    height: 41rem;
 }
 .banner-content{
     display: flex;
@@ -220,7 +219,7 @@ what-we do section starts here */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 70rem;
+    height: 60rem;
     padding: 0 8rem;
 }
 .service-content{
@@ -231,6 +230,9 @@ what-we do section starts here */
 }
 .service-flexstart{
     justify-content: flex-start;
+}
+.service-2{
+    max-height: 50rem;
 }
 .service-3{
     max-height: 40rem;
@@ -251,10 +253,12 @@ what-we do section starts here */
     color: #A09292;
 }
 .blue-de img{
-    height: 300rem;
+    height: 260rem;
 }
 .blue-de{
     position: absolute;
+    top: -6rem;
+    left: 8rem;
 }
 
 
@@ -323,7 +327,7 @@ what-we do section starts here */
     padding: 6rem 0;
 }
 .about-img img{
-    max-height: 60rem;
+    max-height: 50rem;
 }
 .about-content{
     font-family: ebrima;
@@ -345,12 +349,12 @@ what-we do section starts here */
    background-image: url(./photofile/connect-cover_1@3x.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   height:140rem;
+   height:100rem;
    font-family: ebrima;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-top: -4rem;
+   margin-top: -2rem;
    position: relative;
 }
 .connect-form{
@@ -382,7 +386,7 @@ what-we do section starts here */
 .input-ctrl input,.input-ctrl textarea{
     outline: none;
     padding: 2rem;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     border-radius: 4rem;
 }
 input[type=checkbox] {
@@ -403,7 +407,7 @@ input[type=checkbox] {
     border: none;
     background-color: #381DFF;
     color: white;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     padding: 2rem;
     border-radius: 3rem;
     cursor: pointer;
@@ -476,7 +480,8 @@ footer li a:hover{
 }
 .footer-container{
     display: flex;
-    gap: 20rem;
+    justify-content: space-between;
+    width: 60%;
 }
 .footer-row{
     margin-top: 8rem;
@@ -486,9 +491,7 @@ footer li a:hover{
     margin-top: 20rem;
     width: fit-content;
     font-weight: bold;
-    z-index: 1000;
 }
-
 
 
 @media (max-width:768px){
@@ -509,6 +512,12 @@ footer li a:hover{
     }
     .about-img img{
         height: 50rem;
+    }
+    .banner-img img{
+        height: 45rem;
+    }
+    .banner{
+        height: 60rem;
     }
 }
 @media (max-width:580px){
@@ -535,13 +544,27 @@ footer li a:hover{
         max-width: 100%;
         padding: 0;
     }
-    .footer-container{
-        gap: 9rem;
-    }
     .what-content-container{
         flex-direction: column;
         gap: 4rem;
         padding: 4rem;
+    }
+    .banner-img img{
+        height: 35rem;
+    }
+}
+@media(max-width:468px){
+    html{
+        font-size: 20%;
+    }
+    .banner-img img{
+        height: 25rem;
+    }
+    .banner{
+        height: 50rem;
+    }
+    .banner-content-container{
+        padding: 6rem 0;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
@@ -550,8 +573,13 @@ footer li a:hover{
     }
 }
 @media (min-width:769px) and (max-width:840px){
-    .footer-container{
-        gap: 8rem;
+    .banner-img img{
+        height: 45rem;
+    }
+}
+@media (min-width:841px) and (max-width:1200px){
+    .banner-img img{
+        height: 45rem;
     }
 }
 @media (min-width:1025px) and (max-width:1200px){
@@ -561,6 +589,24 @@ footer li a:hover{
 }
 @media (min-width:1201px){
     html{
-        font-size: 62.5%;
+        font-size: 60%;
+    }
+    .service-content{
+        max-width: 40%;
+    }
+}
+@media (min-width:1500px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(min-width:2000px){
+    html{
+        font-size: 100%;
+    }
+}
+@media(min-width:3000px){
+    html{
+        font-size: 280%;
     }
 }
