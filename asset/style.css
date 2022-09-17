@@ -55,13 +55,29 @@ nav > ul > li > a{
     font-family: ebrima;
     padding: .5rem .7rem;
     border-radius: .2rem;
-    box-shadow: inset 0 0 0 0 #ED1E66;
-    margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
 }
-nav > ul > li > a:hover{
-    box-shadow: inset 100px 0 0 0 #ED1E66;
-}
+
+
+
+.inverted-2 {
+    background:
+      linear-gradient( 90deg, #000  50%, #fff 0),
+      linear-gradient(-90deg, #000  50%, #fff 0),
+      linear-gradient( 90deg, #0000 50%, #ED1E66 0),
+      linear-gradient(-90deg, #0000 50%, #ED1E66 0);
+    background-repeat: no-repeat;
+    background-size: 200% 51%;
+    background-position: top left, bottom right;
+    -webkit-background-clip: text, text, padding-box, padding-box;
+            background-clip: text, text, padding-box, padding-box;
+    transition: 0.8s;
+    padding: .5rem .7rem;
+  }
+
+  .inverted-2:hover {
+    background-position: top right, bottom left;
+  }
 
 /* responsive nav */
 .overlay {
