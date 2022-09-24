@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 402 401">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="70.01" y1="151.04" x2="298.75" y2="151.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24b6e0"/>
+      <stop offset=".16" stop-color="#27aadf"/>
+      <stop offset=".44" stop-color="#328dde"/>
+      <stop offset=".81" stop-color="#435ddc"/>
+      <stop offset="1" stop-color="#4d43dc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="142.68" y1="171.6" x2="371.41" y2="171.6" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-764.67" y1="6109.23" x2="-514.56" y2="6109.23" gradientTransform="translate(-5885.49 -461.71) rotate(-90.16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#309c49"/>
+      <stop offset=".04" stop-color="#239849"/>
+      <stop offset=".12" stop-color="#0f934b"/>
+      <stop offset=".2" stop-color="#03904b"/>
+      <stop offset=".28" stop-color="#008f4c"/>
+      <stop offset=".79" stop-color="#00683f"/>
+      <stop offset="1" stop-color="#00573a"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="-24.86" dy="39.07"/>
+      <feGaussianBlur result="blur" stdDeviation="24.86"/>
+      <feFlood flood-color="#000" flood-opacity=".44"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="109.86" y1="161.15" x2="341.09" y2="161.15" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="staff_agumentation_copy" data-name="staff agumentation copy">
+    <g id="catogries_copy" data-name="catogries copy">
+      <g>
+        <g>
+          <path class="cls-4" d="M298.75,276.46c-22.56,13.37-48.85,21.04-76.93,21.04-83.84,0-151.81-68.4-151.81-152.78,0-62.7,37.53-116.58,91.21-140.13l48.78,13.86-71.6,42.89-46.43,103.5,206.78,111.62Z"/>
+          <path class="cls-1" d="M142.68,46.18c22.56-13.37,48.85-21.04,76.93-21.04,83.84,0,151.81,68.4,151.81,152.78,0,62.7-37.53,116.58-91.21,140.13l-48.78-13.86,71.6-42.89,46.43-103.5L142.68,46.18Z"/>
+        </g>
+        <g>
+          <path class="cls-2" d="M363.74,161.32c0,15.1-2.34,29.66-6.68,43.33-9.69,30.53-29.35,56.61-55.16,74.44-23.06,15.94-51.04,25.27-81.2,25.27s-58.13-9.33-81.2-25.27c-25.8-17.82-45.46-43.91-55.15-74.44-4.34-13.67-6.68-28.23-6.68-43.33,0-78.99,64.04-143.03,143.03-143.03s143.04,64.04,143.04,143.03Z"/>
+          <g>
+            <circle class="cls-3" cx="225.48" cy="161.15" r="125.05"/>
+            <circle class="cls-5" cx="225.48" cy="161.15" r="115.61"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

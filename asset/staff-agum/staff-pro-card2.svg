@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 485.86 294.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #606060;
+        mix-blend-mode: multiply;
+        opacity: .31;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="34.72" y1="130.02" x2="485.86" y2="130.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#29abe2"/>
+      <stop offset=".18" stop-color="#34a1df"/>
+      <stop offset=".49" stop-color="#5186d7"/>
+      <stop offset=".9" stop-color="#815bcc"/>
+      <stop offset="1" stop-color="#8e50c9"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-2">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="staff_agumentation_copy" data-name="staff agumentation copy">
+        <g id="our_process_copy" data-name="our process copy">
+          <g id="_2" data-name="2">
+            <g>
+              <path class="cls-1" d="M472.45,241.12l-21.3-26.43V89.8c0-30.42-24.66-55.08-55.09-55.08H55.09c-1.81,0-3.6,.09-5.37,.26l1.4-19.04L18.57,48.58C7.18,58.67,0,73.39,0,89.8v204.96H396.06c16.17,0,30.71-6.97,40.79-18.06v.12s35.6-35.71,35.6-35.71Z"/>
+              <path class="cls-3" d="M58.16,0H462.42c12.94,0,23.44,10.5,23.44,23.44V236.61c0,12.94-10.5,23.44-23.44,23.44H34.72V23.44C34.72,10.5,45.22,0,58.16,0Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
