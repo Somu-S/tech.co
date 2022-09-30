@@ -29,6 +29,7 @@
 html,body{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .home-container{
     background-image: url(./photofile/body.png);
@@ -41,7 +42,7 @@ html,body{
     background-repeat: none;
     height: 60rem;
 }
-.logo{
+.logo a{
     font-size: 4rem;
     font-family: ebrima;
     font-weight: bold;
@@ -60,18 +61,58 @@ nav{
 }
 .nav-bar{
     display: none;
+    border: 1px solid white;
+    padding: 1rem;
 }
 nav ul{
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
 }
 nav > ul > li > a{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: white;
     font-family: ebrima;
     padding: .5rem .7rem;
     border-radius: .2rem;
 }
+
+
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    font-family: ebrima;
+    left: 0;
+    opacity: 0;
+    top: 1rem;
+    width: 150%;
+    visibility: hidden;
+    position: absolute;
+    background-color: #ED1E66;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: all .25s ease;
+}
+.dropdown:hover .dropdown-content{
+	opacity: 1;
+	top: 3rem;
+	visibility: visible;
+}
+.dropdown-content a{
+    color: white;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #0000FF;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
 
 
 
@@ -325,7 +366,7 @@ what-we do section starts here */
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 30%;
 }
 .achie-txt span{
     font-size: 5.7rem;
@@ -533,9 +574,10 @@ footer li a:hover{
     background-size: cover;
 }
 .nft-nav{
-    background: url(./NFT-DEV/nav-cover.svg);
-    background-size: contain;
-    height: 40rem;
+    background: url(./NFT-DEV/nav-cover\ edited.png);
+    background-size: 100% 100%;
+    height: 30rem;
+    width: 100%;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -549,14 +591,14 @@ footer li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
     padding: 8rem 0;
-    margin-top: -25rem;
+    margin-top: -15rem;
 }
 .nft-banner-content{
     max-width: 30%;
 }
 .nft-banner-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
 }
 .nft-learn-btn button{
@@ -564,7 +606,6 @@ footer li a:hover{
     outline: none;
     padding: 1rem;
     border-radius: 1.5rem;
-    /* background: linear-gradient(to right, #29abe2, #199ae8, #3f87e7, #696fde, #8e50c9); */
     background-color: #381DFF;
     color: white;
     border: none;
@@ -994,8 +1035,6 @@ footer li a:hover{
     position: absolute;
     flex-direction: column;
     align-items: center;
-    /* top:34rem;
-    left: 10rem; */
     max-width: 20%;
     margin-top: 34rem;
     margin-left: 10rem;
@@ -1078,13 +1117,14 @@ footer li a:hover{
 }
 .web-banner-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2rem;
     margin-top: -19rem;
+    height: 60rem;
+    padding: 0 6rem;
 }
 .web-banner-img img{
-    height: 55rem;
+    height: 45rem;
 }
 .web-content{
     font-family: myriad;
@@ -1101,7 +1141,7 @@ footer li a:hover{
     font-weight: 700;
 }
 .web-content p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-family: 'open sans' sans-serif;
     margin: 1rem 0;
 }
@@ -1255,7 +1295,7 @@ footer li a:hover{
 .custom-banner{
     display: flex;
     justify-content: space-between;
-    margin-top: -15rem;
+    margin-top: -10rem;
     padding: 0 4rem;
 }
 .custom-img img{
@@ -1365,7 +1405,7 @@ footer li a:hover{
     justify-content: space-around;
     margin-top: -17rem;
     align-items: center;
-    padding: 0 4rem;
+    height: 60rem;
 }
 .mobile-content{
     font-family: ebrima;
@@ -1444,10 +1484,11 @@ footer li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: -20rem;
+    margin-top: -15rem;
+    height: 60rem;
 }
 .staff-img img{
-    height: 60rem;
+    height: 50rem;
 }
 .staff-content{
     font-family: ebrima;
@@ -1643,10 +1684,10 @@ footer li a:hover{
         width: 90%;
     }
     .blue-de{
-        left: -10rem;
+        left: 0rem;
     }
     .service-content{
-        max-width: 50%;
+        max-width: 45%;
     }
     .blue-de img{
         height: 220rem;
@@ -1718,6 +1759,9 @@ footer li a:hover{
     .custom-pro-content-wrapper2{
         margin-left: 5%;
     }
+    .blue-de{
+        left: 30px;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
     html{
@@ -1746,15 +1790,21 @@ footer li a:hover{
     .service-content{
         max-width: 40%;
     }
+    .banner{
+        height: 60rem;
+    }
 }
 @media (min-width:1500px){
     html{
-        font-size: 70%;
+        font-size: 65%;
+    }
+    .banner{
+        height: 55rem;
     }
 }
 @media (min-width:1900px){
     html{
-        font-size: 90%;
+        font-size: 85%;
     }
 }
 @media(min-width:2400px){
