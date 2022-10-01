@@ -30,6 +30,7 @@ html,body{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    transition: scroll-behavior .5s;
 }
 .home-container{
     background-image: url(./photofile/body.png);
