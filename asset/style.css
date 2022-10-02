@@ -292,7 +292,7 @@ what-we do section starts here */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 60rem;
+    height: 45rem;
     padding: 0 8rem;
 }
 .service-content{
@@ -305,13 +305,13 @@ what-we do section starts here */
     justify-content: flex-start;
 }
 .service-2{
-    max-height: 50rem;
+    max-height: 55rem;
 }
 .service-3{
     max-height: 40rem;
 }
 .service-5{
-    max-height: 30rem;
+    max-height: 20rem;
 }
 .ser-head{
     font-size: 2.4rem;
@@ -326,13 +326,61 @@ what-we do section starts here */
     color: #A09292;
 }
 .blue-de img{
-    height: 260rem;
+    height: 200rem;
 }
 .blue-de{
     position: absolute;
-    top: -6rem;
-    left: 8rem;
+    top:  2rem;
+    left: 250px;
 }
+.ser-img3,.ser-img1,.ser-img2,.ser-img4,.ser-img5{
+    position: absolute;
+    background-image: linear-gradient(to right top, #1c191b, #403d40, #676668, #929193, #bfbfc0, #d4d4d5, #e9e9ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    z-index: 1;
+    height: 36rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36rem;
+    transition: all 400ms;
+    filter: drop-shadow(70px -45px 35px rgba(0, 0, 0, 0.61));
+    border-radius: 100%;
+}
+.ser-img1{
+    top: 3.5rem;
+    left: 26.5rem;
+}
+.ser-img1:hover,.ser-img2:hover,.ser-img3:hover,.ser-img4:hover,.ser-img5:hover{
+    filter: drop-shadow(70px -45px 35px rgba(0, 0, 0, 0.81));
+}
+.ser-img1 img,.ser-img2 img,.ser-img3 img,.ser-img4 img,.ser-img5 img{
+    height: 26rem;
+}
+.ser-img2{
+    top: 47rem;
+    left: 69.5rem;
+}
+.ser-img3{
+    top: 90.5rem;
+    left: 26.5rem;
+}
+.ser-img4{
+    top: 134rem;
+    left: 70rem;
+}
+.ser-img5{
+    top: 164.5rem;
+    left: 28.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* digital part starts here */
@@ -1618,20 +1666,16 @@ footer li a:hover{
     .banner{
         height: 60rem;
     }
+    .blue-de{
+        left: 24rem;
+    }
 }
 @media (max-width:580px){
     html{
         font-size: 25%;
     }
-    .blue-de img{
-        height: 200rem;
-    }
     .service-content{
         max-width: 40%;
-    }
-    .service-flexbox{
-        height: 40rem;
-        padding: 0 1rem;
     }
     .company-logo{
         display: grid;
@@ -1667,6 +1711,22 @@ footer li a:hover{
         margin: 1rem;
         padding: 8rem 0;
     }
+    .blue-de{
+        left: 13rem;
+    }
+    .ser-img1,.ser-img3{
+        left: 15rem;
+    }
+    .ser-img5{
+        left: 16.5rem;
+    }
+    .ser-img2,.ser-img4{
+        left: 58rem;
+    }
+    .service-5{
+        max-height: 25rem;
+    }
+
 }
 @media(max-width:468px){
     .banner-img img,.nft-banner-img img{
@@ -1684,14 +1744,8 @@ footer li a:hover{
     .footer-container{
         width: 90%;
     }
-    .blue-de{
-        left: 0rem;
-    }
     .service-content{
         max-width: 45%;
-    }
-    .blue-de img{
-        height: 220rem;
     }
     .process-illus img{
         height: 220rem;
@@ -1742,6 +1796,18 @@ footer li a:hover{
     .step-1{
         margin-left: 43rem;
     }
+    .blue-de{
+        left: 6rem;
+    }
+    .ser-img1,.ser-img3{
+        left: 8rem;
+    }
+    .ser-img5{
+        left: 9.5rem;
+    }
+    .ser-img2,.ser-img4{
+        left: 51rem;
+    }
 }
 @media (max-width:360px){
     html{
@@ -1761,12 +1827,24 @@ footer li a:hover{
         margin-left: 5%;
     }
     .blue-de{
-        left: 30px;
+        left: 20rem;
+    }
+    .ser-img1,.ser-img3{
+        left: 22rem;
+    }
+    .ser-img5{
+        left: 24rem;
+    }
+    .ser-img2,.ser-img4{
+        left: 65rem;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
     html{
         font-size: 40%;
+    }
+    .blue-de{
+        left: 25rem;
     }
 }
 @media (min-width:769px) and (max-width:840px){
@@ -1777,6 +1855,9 @@ footer li a:hover{
 @media (min-width:841px) and (max-width:1200px){
     .banner-img img{
         height: 45rem;
+    }
+    .blue-de{
+        left: 25rem;
     }
 }
 @media (min-width:1025px) and (max-width:1200px){
@@ -1794,6 +1875,9 @@ footer li a:hover{
     .banner{
         height: 60rem;
     }
+    .blue-de{
+        left: 25rem;
+    }
 }
 @media (min-width:1500px){
     html{
@@ -1802,10 +1886,16 @@ footer li a:hover{
     .banner{
         height: 55rem;
     }
+    .blue-de{
+        left: 25rem;
+    }
 }
 @media (min-width:1900px){
     html{
         font-size: 85%;
+    }
+    .blue-de{
+        left: 25rem;
     }
 }
 @media(min-width:2400px){
