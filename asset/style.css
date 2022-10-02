@@ -342,7 +342,7 @@ what-we do section starts here */
     align-items: center;
     justify-content: center;
     width: 36rem;
-    transition: all 400ms;
+    transition: all 400ms ease-in-out;
     filter: drop-shadow(7rem -4.5rem 3.5rem rgba(0, 0, 0, 0.61));
     border-radius: 100%;
 }
@@ -351,7 +351,7 @@ what-we do section starts here */
     left: 26.5rem;
 }
 .ser-img1:hover,.ser-img2:hover,.ser-img3:hover,.ser-img4:hover,.ser-img5:hover{
-    filter: drop-shadow(7rem -4.5rem 3.5rem rgba(0, 0, 0, 0.81));
+    filter: drop-shadow(7rem -4.5rem 3rem rgba(0, 0, 0, 0.81));
 }
 .ser-img1 img,.ser-img2 img,.ser-img3 img,.ser-img4 img,.ser-img5 img{
     height: 26rem;
