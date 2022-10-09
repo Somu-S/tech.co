@@ -65,6 +65,9 @@ nav{
     border: 1px solid white;
     padding: 1rem;
 }
+.nav-bar img{
+    height: 2rem;
+}
 nav ul{
     display: flex;
     gap: 3rem;
