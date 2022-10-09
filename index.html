@@ -7,7 +7,6 @@
     <title>Home</title>
     <script src="https://kit.fontawesome.com/9cfa251def.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="asset/script.js"></script>
     <link rel="stylesheet" href="asset/style.css">
     <link rel="icon" type="image/x-icon" href="/asset/photofile/favicon.png">
 </head>
@@ -20,9 +19,12 @@
                         <img src="asset/photofile/menu.png">
                     </div>
                     <div class="logo" data-aos="fade-right">
-                        <a href="index.html">
+                        <a href="index.html" class="hide">
                             Tech.co
                         </a>
+                        <div class="img-logo">
+                            <img src="asset/photofile/mainlogo.png">
+                        </div>
                     </div>
                     <ul data-aos="fade-left">
                         <li class="inverted-2"><a href="#">Home</a></li>
@@ -46,9 +48,20 @@
                         <div class="overlay-content">
                           <a href="index.html">Home</a>
                           <a href="#">About</a>
-                          <a href="#">Services</a>
+                          <div class="ser-btn">
+                            <button class="ser-drop">
+                                Services <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <div class="panel">
+                                <a href="#staff-agu">Staff Agumentation</a>
+                                <a href="#mobile-dev">Mobile App Development</a>
+                                <a href="#web-dev">Web App Development</a>
+                                <a href="#soft-dev">Custom Development</a>
+                                <a href="#nft-dev">Blockchain/NFT Development</a>
+                            </div>
+                          </div>
                           <a href="#">Portfolio</a>
-                          <a href="#get_connect">Get Connected</a>
+                          <a href="#">Get Connected</a>
                         </div>
                       </div>
                 </nav>
@@ -360,6 +373,7 @@
 
     <!-- script for animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="asset/script.js"></script>
     <script>
       AOS.init({
         duration:1000,

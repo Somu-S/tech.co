@@ -16,39 +16,53 @@
     <div class="nft-nav">
         <nav>
             <div class="nav-bar" onclick="openNav()">
-                <i class="fa-solid fa-bars"></i>
+                <img src="asset/photofile/menu.png">
             </div>
             <div class="logo" data-aos="fade-right">
-                <a href="index.html">
+                <a href="index.html" class="hide">
                     Tech.co
                 </a>
+                <div class="img-logo">
+                    <img src="asset/photofile/mainlogo.png">
+                </div>
             </div>
             <ul data-aos="fade-left">
-                <li class="inverted-2"><a href="index.html">Home</a></li>
+                <li class="inverted-2"><a href="#">Home</a></li>
                 <li class="inverted-2"><a href="#">About</a></li>
                 <li class="inverted-2 dropdown">
                     <a href="services.html">Our Services</a>
                     <div class="dropdown-content">
-                        <a href="staff.html">Staff Agumentation</a>
-                        <a href="mobile-app.html">Mobile App Development</a>
-                        <a href="web.html">Web App Development</a>
-                        <a href="custom-soft.html">Custom Development</a>
-                        <a href="nft.html">Blockchain/NFT Development</a>
+                        <a href="#staff-agu">Staff Agumentation</a>
+                        <a href="#mobile-dev">Mobile App Development</a>
+                        <a href="#web-dev">Web App Development</a>
+                        <a href="#soft-dev">Custom Development</a>
+                        <a href="#nft-dev">Blockchain/NFT Development</a>
                     </div>
                </li>
-                <li class="inverted-2"><a href="#portfolio">Portfolio</a></li>
+                <li class="inverted-2"><a href="#">Portfolio</a></li>
                 <li class="inverted-2"><a href="#get_connect">Get connected</a></li>
             </ul>
 
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="index.html">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#get_connect">Get Connected</a>
+                  <a href="index.html">Home</a>
+                  <a href="#">About</a>
+                  <div class="ser-btn">
+                    <button class="ser-drop">
+                        Services <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="panel">
+                        <a href="#staff-agu">Staff Agumentation</a>
+                        <a href="#mobile-dev">Mobile App Development</a>
+                        <a href="#web-dev">Web App Development</a>
+                        <a href="#soft-dev">Custom Development</a>
+                        <a href="#nft-dev">Blockchain/NFT Development</a>
+                    </div>
                   </div>
+                  <a href="#">Portfolio</a>
+                  <a href="#">Get Connected</a>
+                </div>
               </div>
         </nav>
     </div>
