@@ -63,6 +63,7 @@ nav{
 }
 
 .nav-bar{
+    display: none;
     border: 1px solid white;
     padding: 1rem;
 }
