@@ -327,7 +327,7 @@ what-we do section starts here */
     justify-content: flex-end;
     align-items: center;
     height: 45rem;
-    padding: 0 8rem;
+    padding: 0 2rem;
 }
 .service-content{
     font-family: ebrima;
@@ -1873,16 +1873,16 @@ footer li a:hover{
         margin-left: 5%;
     }
     .blue-de{
-        left: 20rem;
+        left: 5rem;
     }
     .ser-img1,.ser-img3{
-        left: 22rem;
+        left: 7rem;
     }
     .ser-img5{
-        left: 24rem;
+        left: 8.5rem;
     }
     .ser-img2,.ser-img4{
-        left: 65rem;
+        left: 50rem;
     }
 }
 @media (min-width:769px) and (max-width:1024px){
