@@ -63,7 +63,6 @@ nav{
 }
 
 .nav-bar{
-    display: none;
     border: 1px solid white;
     padding: 1rem;
 }
@@ -143,11 +142,11 @@ nav > ul > li > a{
 /* responsive nav */
 .overlay {
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     z-index: 100;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: #3f3fb5;
     overflow-x: hidden;
     transition: 0.5s;
@@ -157,10 +156,10 @@ nav > ul > li > a{
     position: relative;
     top: 10%;
     width: 100%;
-    text-align: center;
+    text-align: right;
     margin-top: 30px;
   }
-  .overlay a {
+  .overlay a{
     width: fit-content;
     padding: 20px 50px;
     text-decoration: none;
@@ -1678,6 +1677,9 @@ footer li a:hover{
 @media (max-width:768px){
     html{
         font-size: 30%;
+    }
+    nav{
+        flex-direction: row-reverse;
     }
     .nav-bar{
         display: block;
