@@ -790,7 +790,7 @@ footer li a:hover{
 
 
 .facts-container{
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
 .fact-header{
     font-family: poor richard;
@@ -1010,16 +1010,27 @@ footer li a:hover{
     height: 33rem;
     width: 33rem;
 }
+.testimonial-card:hover .light-tes{
+    transform: scale(1.1);
+}
+.testimonial-card:hover .black-tes{
+    transform: scale(1.1);
+}
+.testimonial-card:hover .tes-main{
+    top: 3rem;
+}
 .light-tes{
     background-color: #D9F7fF;
     height: 19.6rem;
     position: relative;
+    transition: all 400ms ease-in-out;
 }
 .black-tes{
     background-color: #4B4D51;
     height: 13.4rem;
     margin-top: 1rem;
     position: relative;
+    transition: all 400ms ease-in-out;
 }
 .comment-box img{
     height: 20rem;
@@ -1058,6 +1069,7 @@ footer li a:hover{
     position: absolute;
     left: 19rem;
     top: 5rem;
+    transition: all 400ms ease-in-out;
 }
 .tes-main span{
     font-size: 2rem;
@@ -1110,8 +1122,6 @@ footer li a:hover{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    /* left: 7rem;
-    top:3rem */
 }
 .nft-container{
     display: flex;
@@ -1142,53 +1152,6 @@ footer li a:hover{
     color: #703215;
 }
 
-
-
-.que-head{
-    font-size: 5rem;
-    font-family: ebrima;
-    font-weight: bolder;
-    background-image: linear-gradient(to right, #29abe2, #199ae8, #3f87e7, #696fde, #8e50c9);
-    color: white;
-    max-width: 60%;
-    margin: auto;
-    padding: 2rem;
-    border-radius: 5rem;
-    text-align: center;
-}
-.que-card{
-    background:url(./NFT-DEV/que-card-cover.png) no-repeat;
-    background-size: contain;
-    height: 40rem;
-    max-width: 120rem;
-    display: flex;
-    margin: 5rem auto;
-    font-family: ebrima;
-    justify-content: space-between;
-}
-.que-card p{
-    font-size: 1.3rem;
-    font-weight: bold;
-    max-width: 30%;
-    text-align: justify;
-    padding: 2rem;
-}
-.quad-shape{
-    background: url(./NFT-DEV/blue-inner-shape@3x.png) no-repeat;
-    background-size: 100% 100%;
-    height: 20rem;
-    width: 40rem;
-    font-size: 2.4rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-.quad-shape span{
-    max-width: 40%;
-    margin: auto;
-}
 
 
 
@@ -1746,11 +1709,6 @@ footer li a:hover{
         margin-top: 5rem;
     }
 }
-@media (max-width:620px){
-    .process4{
-        margin-top: ;
-    }
-}
 @media (max-width:580px){
     html{
         font-size: 23%;
@@ -2079,4 +2037,91 @@ footer li a:hover{
     html{
         font-size: 250%;
     }
+}
+
+.quad{
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 0, 66% 99%, 0% 100%);
+    height: 15rem;
+    width: 40rem;
+    font-family: ebrima;
+    display: flex;
+    align-items: center;
+}
+.description-card-wrapper{
+    padding: 0 4rem;
+}
+.description-card{
+    background-color: white;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 12rem 0;
+    transition: all 400ms ease-in-out;
+    filter: drop-shadow(0px 40px 10px rgba(0, 0, 0, 0.30));
+}
+.description-card p{
+    font-family: myriad;
+    max-width: 30%;
+    overflow: hidden;
+    font-size: 1.6rem;
+}
+
+.triangle{
+    background-color: white;
+    height: 10rem;
+    width: 15rem;
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+    cursor: pointer;
+    clip-path: polygon(51% 63%, 0 0, 100% 0);
+}
+.inner-triangle{
+    clip-path: polygon(51% 63%, 0 0, 100% 0);
+    height: 6rem;
+    width: 9rem;
+    background-color: yellow;
+    margin: auto;
+}
+.quad h2{
+    width: 50%;
+    text-align: center;
+    margin-left: 4rem;
+    color: white;
+    font-size: 2.4rem;
+}
+#description-card-one,#description-card-two,#description-card-three,#description-card-four,#description-card-five,#description-card-six,#description-card-seven{
+    transition: all 500ms ease-in-out;
+}
+#description-card-one .quad{
+    background-color: #EE8322;
+}
+#description-card-two .quad{
+    background-color: #E92B46;
+}
+#description-card-three .quad{
+    background-color: #008F4C;
+}
+#description-card-four .quad,#description-card-four .inner-triangle{
+    background-color: #199ae8;
+}
+#description-card-five .quad,#description-card-five .inner-triangle{
+    background-color: #199ae8;
+}
+#description-card-six .quad,#description-card-six .inner-triangle{
+    background-color: #199ae8;
+}
+#description-card-seven .quad,#description-card-seven .inner-triangle{
+    background-color: #199ae8;
+}
+#description-card-one .inner-triangle{
+    background-color: #EE8322;
+}
+#description-card-two .inner-triangle{
+    background-color: #E92B46;
+}
+#description-card-three .inner-triangle{
+    background-color: #008F4C;
 }
