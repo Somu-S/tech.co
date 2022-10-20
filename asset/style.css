@@ -1152,7 +1152,18 @@ footer li a:hover{
     color: #703215;
 }
 
-
+.que-head {
+    font-size: 5rem;
+    font-family: ebrima;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #29abe2, #199ae8, #3f87e7, #696fde, #8e50c9);
+    color: white;
+    max-width: 60%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5rem;
+    text-align: center;
+}
 
 
 
